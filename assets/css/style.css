@@ -167,6 +167,7 @@ a{
     background-size: contain;
     background-repeat: no-repeat;
 
+
    
 
     
@@ -214,6 +215,16 @@ body{
 
     }
 }
+
 .logo{
     padding-top: 10px;
+}
+.left{
+    width: 30%;
+    margin: auto;
+}
+.right{
+    width: 15%;
+    margin: auto;
+    
 }
