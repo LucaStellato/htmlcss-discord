@@ -101,6 +101,7 @@ height: 400px;
     
     display: flex;
     justify-content: space-around;
+    margin-top: 300px;
 
 }
 
@@ -118,6 +119,32 @@ height: 400px;
 
 .title_paragraph{
     text-align: center;
+    
+    .title{
+        margin-top: 80px;
+        margin-bottom: 25px;
+    }
+    .paragraph{
+       text-align: center;
+       width: 50%;
+       margin: auto;
+       
+    }
+    .adventure{
+        background-image: url(../img/stars.svg);
+    
+    }
+    .dwn-mac{
+        background-color: #8ea1e1;
+        color: white;
+           border: 0;
+        margin-top: 20px;
+        border-radius: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 
@@ -222,6 +249,7 @@ body{
 .left{
     width: 30%;
     margin: auto;
+
 }
 .right{
     width: 15%;
@@ -229,6 +257,19 @@ body{
    
     
 }
-.wave{
-    color: #3161e0;
+.chat{
+    /*background-image: url(../img/wave2.svg);*/
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+ .left{
+    margin-left: 30px;
+ }
+ .right{
+    padding-top: 100px;
+    margin-right: 10px;
+ }
+   
+
+    
 }
