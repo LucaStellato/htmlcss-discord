@@ -1,0 +1,147 @@
+
+/*utilities*/
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*utilities*/
+
+
+/*DEBUG*/
+
+.debug .comunication , .debug .channel, .debug .chat,
+.debug .comunity, .debug .low_latency, .debug .end_main, .debug .left, .debug .right, .debug .talk,
+.debug .product, .debug .company, .debug .resources,.debug .norms
+{
+    border: 1px dashed;
+}
+
+.debug header{
+   background-color: aqua;
+    height: 80px;
+
+}
+.debug .channel{
+    height: 725px;
+    background-color: rgb(16, 119, 16);
+
+}
+.debug .container
+{
+    height: 548px;
+    width: 100%;
+    background-color: blue;
+}
+.debug .chat {
+    height: 856px;
+    background-color: chocolate;
+}
+.debug .comunity{
+    height: 754px;
+    background-color: orchid;
+
+}
+.debug .low_latency{
+    background-color: goldenrod;
+     height: 1312px;
+
+}
+.debug .end_main{
+     height: 484px;
+     background-color: darkseagreen;
+}
+.debug footer{
+    height: 173px;
+    background-color: blanchedalmond;
+}
+.debug .left, .debug .right{
+    background-color: blueviolet;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ 
+
+}
+.debug .right{
+
+    width: 30%;
+   
+
+}
+.debug .product, .debug .company, .debug .talk, .debug .resources, .debug .norms{
+background-color: black;
+color: white;
+height: 400px;
+}
+.debug footer{
+    background-color: aqua;
+}
+
+/*DEBUG*/
+
+
+
+.channel{
+    
+    justify-content: space-around;
+    display: flex;
+}
+
+.chat{
+     justify-content: space-around;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.comunity{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.title_paragraph{
+    text-align: center;
+}
+
+
+    
+
+.talk{
+       width: 20%;
+       margin: auto;
+
+}
+
+
+.company, .product,.company, .resources, .norms{
+     width: 10%;
+    margin: auto;
+    
+}
+
+
+
+.end_main{
+    display: flex;
+}
+
+
+.final{
+    display: flex;
+    justify-content: space-around;
+}
