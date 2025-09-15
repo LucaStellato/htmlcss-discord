@@ -167,6 +167,37 @@ height: 400px;
 
 .end_main{
     display: flex;
+    margin-top: 10px;
+    background-color: #23272a;
+    padding-bottom: 100px;
+
+    .talk{
+        width: 10%;
+       margin-bottom: 10px;
+      
+    }
+    img{
+        height: 15px;
+        margin-top: 15px;
+    }
+    h4{
+        color: #7289da;
+        margin-bottom: 10px;
+    }
+}
+ul{
+    
+    color: white;
+    list-style: none;
+}
+li{
+    margin-bottom: 10px;
+}
+.company, .product, .talk{
+    margin-top: 20px;
+}
+
+
 }
 
 
@@ -273,3 +304,4 @@ body{
 
     
 }
+
