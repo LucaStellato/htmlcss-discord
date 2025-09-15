@@ -226,5 +226,12 @@ body{
 .right{
     width: 15%;
     margin: auto;
+   
+    
+}
+.chat{
+    background-image: url(../img/wave.svg);
+    
+    color: white;
     
 }
