@@ -229,9 +229,6 @@ body{
    
     
 }
-.chat{
-    background-image: url(../img/wave.svg);
-    
-    color: white;
-    
+.wave{
+    color: #3161e0;
 }
