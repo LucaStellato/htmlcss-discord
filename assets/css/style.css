@@ -316,7 +316,8 @@ body{
     
 }
 .chat{
-    /*background-image: url(../img/wave2.svg);*/
+  
+    background-position: 1220px ;
     margin-top: 300px;
     display: flex;
     justify-content: space-around;
