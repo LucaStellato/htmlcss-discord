@@ -88,6 +88,7 @@ height: 400px;
     
     justify-content: space-around;
     display: flex;
+    margin-top: 90px;
 }
 
 .chat{
@@ -167,9 +168,13 @@ height: 400px;
 
 .end_main{
     display: flex;
-    margin-top: 10px;
+    
     background-color: #23272a;
     padding-bottom: 100px;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    
 
     .talk{
         width: 10%;
@@ -193,17 +198,39 @@ ul{
 li{
     margin-bottom: 10px;
 }
-.company, .product, .talk{
-    margin-top: 20px;
+.company, .product, .talk, .resources, .norms{
+    margin-top: 40px;
+  
 }
 
 
-}
+
 
 
 .final{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+   padding-top:20px ;
+   
+    width: 80%;
+    margin: 0 auto;
+    img{
+        padding-left: 50px;
+        margin-bottom: 50px;
+    } 
+    .register{
+             background-color:#8ea1e1;
+            color: white;
+            border: 0;
+            margin-bottom: 50px;
+           margin-right: 40px;
+            border-radius: 16px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+    }
 }
 nav{
     color: white;
@@ -303,5 +330,11 @@ body{
    
 
     
+}
+footer{
+    width: 100%;
+    margin: 0 auto;
+     background-color:#23272a; 
+     margin-top: 50px;
 }
 
