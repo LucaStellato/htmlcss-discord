@@ -164,6 +164,8 @@ a{
 }
 .comunication{
     background-image:url(../img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 
    
 
@@ -172,8 +174,8 @@ a{
 }
 .container{
     padding-top: 100px;
-    padding-bottom: 300px;
-
+    padding-bottom: 350px;
+    
     .title{
         color: white;
         text-align: center;
@@ -189,4 +191,29 @@ a{
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    text-align: center;
+    .dwn-mac, .discord-web{
+        border: 0;
+        margin-top: 20px;
+        border-radius: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+    .dwn-mac{
+        background-color: white;
+    }
+    .discord-web{
+        background-color:#23272a;
+        color: white;
+        margin-left: 15px;
+
+    }
+}
+.logo{
+    padding-top: 10px;
 }
