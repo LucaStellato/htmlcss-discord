@@ -162,3 +162,18 @@ a{
    align-items:*/
    border: 0px;
 }
+.comunication{
+    background-image:url(../img/jumbo.png);
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+.container{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 300px;
+    justify-content: ;
+
+}
